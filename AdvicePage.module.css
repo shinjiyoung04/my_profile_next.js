@@ -1,0 +1,85 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px; /* 폼과 리스트 사이 간격 */
+}
+
+.formGroup {
+  margin-bottom: 20px; /* 각 필드 간의 간격 */
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 5px; /* 라벨과 입력 필드 사이 간격 */
+}
+
+.textarea {
+  min-height: 200px; /* 내용 글상자 높이 */
+  resize: vertical; /* 세로 방향으로만 크기 조절 가능 */
+}
+
+.submitButton {
+  padding: 10px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.submitButton:hover {
+  background-color: #0051bb; /* 버튼 호버 색상 */
+}
+
+.reviewList {
+  list-style-type: none; /* 기본 리스트 스타일 제거 */
+  padding-left: 0; /* 왼쪽 패딩 제거 */
+}
+
+.reviewItem {
+  border: 1px solid #ddd; /* 아이템 경계선 */
+  margin-bottom: 20px; /* 아이템 간의 간격 */
+  padding: 15px; /* 아이템 패딩 */
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.editButton,
+.deleteButton {
+  padding: 5px 10px;
+}
+
+.editButton {
+  background-color: #4caf50;
+  color: white;
+}
+
+.deleteButton {
+  background-color: #f44336;
+  color: white;
+}
+
+.editButton:hover,
+.deleteButton:hover {
+  opacity: 0.8;
+}
+
+/* 새로운 스타일 추가 (독후감 공유 텍스트) */
+.title {
+  font-size: 32px; /* 크기를 크게 설정 */
+  font-weight: bold; /* 텍스트 굵게 설정 */
+}
